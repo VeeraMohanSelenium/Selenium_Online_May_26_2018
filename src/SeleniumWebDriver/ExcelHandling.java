@@ -39,31 +39,24 @@ public class ExcelHandling {
 		// Find the Rowcount
 		int rowcount = sheet.getLastRowNum();
 		System.out.println(rowcount);
-		
-		//Find the cellcount
-		
-		int cellcount=sheet.getRow(1).getLastCellNum();
+
+		// Find the cellcount
+
+		int cellcount = sheet.getRow(1).getLastCellNum();
 		System.out.println(cellcount);
-		
-		
-	for(int i=0;i<=rowcount;i++)
-	{
-		
-		cellcount=sheet.getRow(i).getLastCellNum();
-		for(int j=0;j<cellcount;j++)
-		{
-			
-			String Data=sheet.getRow(i).getCell(j).getStringCellValue();
-			
-			System.out.println("All data from the Excel::    "+ Data);
-			
+
+		for (int i = 0; i <= rowcount; i++) {
+
+			cellcount = sheet.getRow(i).getLastCellNum();
+			for (int j = 0; j < cellcount; j++) {
+
+				String Data = sheet.getRow(i).getCell(j).getStringCellValue();
+
+				System.out.println("All data from the Excel::    " + Data);
+
+			}
+
 		}
-		
-		
-		
-	}
-		
-		
 
 	}
 
