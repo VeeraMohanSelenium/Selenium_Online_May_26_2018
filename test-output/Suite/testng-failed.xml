@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testNGpackage.BaseClass2">
+        <methods>
+          <include name="bm"/>
+          <include name="bc"/>
+          <include name="am"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- testNGpackage.BaseClass2 -->
+      <class name="testNGpackage.Methods">
+        <methods>
+          <include name="m2"/>
+          <include name="bm"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- testNGpackage.Methods -->
+      <class name="testNGpackage.BaseClass">
+        <methods>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="as"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="at"/>
+        </methods>
+      </class> <!-- testNGpackage.BaseClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
