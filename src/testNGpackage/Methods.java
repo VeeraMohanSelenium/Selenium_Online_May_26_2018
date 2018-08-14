@@ -20,7 +20,7 @@ public class Methods {
 	@Test
 	public void m2() {
 		System.out.println("@Test m2 method");
-		
+
 		Assert.assertEquals(true, false);
 	}
 
