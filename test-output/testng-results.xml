@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50" started-at="2018-08-14T13:02:09Z" finished-at="2018-08-14T13:02:09Z">
+  <suite name="Default suite" duration-ms="11992" started-at="2018-08-16T13:03:26Z" finished-at="2018-08-16T13:03:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50" started-at="2018-08-14T13:02:09Z" finished-at="2018-08-14T13:02:09Z">
-      <class name="SeleniumWebDriver.Class1">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:SeleniumWebDriver.Class1@1810399e]" name="launchbrowser" is-config="true" duration-ms="9" started-at="2018-08-14T18:32:09Z" finished-at="2018-08-14T18:32:09Z">
+    <test name="Default test" duration-ms="11992" started-at="2018-08-16T13:03:26Z" finished-at="2018-08-16T13:03:38Z">
+      <class name="SampleFramework.TestCases">
+        <test-method status="PASS" signature="startMethod()[pri:0, instance:SampleFramework.TestCases@23ceabc1]" name="startMethod" is-config="true" duration-ms="8018" started-at="2018-08-16T18:33:26Z" finished-at="2018-08-16T18:33:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="facebook()[pri:0, instance:SeleniumWebDriver.Class1@1810399e]" name="facebook" duration-ms="11" started-at="2018-08-14T18:32:09Z" finished-at="2018-08-14T18:32:09Z">
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="Tc101_VerifyLogin()[pri:0, instance:SampleFramework.TestCases@23ceabc1]" name="Tc101_VerifyLogin" duration-ms="3906" started-at="2018-08-16T18:33:34Z" finished-at="2018-08-16T18:33:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebook -->
-        <test-method status="PASS" signature="close()[pri:0, instance:SeleniumWebDriver.Class1@1810399e]" name="close" is-config="true" duration-ms="0" started-at="2018-08-14T18:32:09Z" finished-at="2018-08-14T18:32:09Z">
+        </test-method> <!-- Tc101_VerifyLogin -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:SampleFramework.TestCases@23ceabc1]" name="endMethod" is-config="true" duration-ms="41" started-at="2018-08-16T18:33:38Z" finished-at="2018-08-16T18:33:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- SeleniumWebDriver.Class1 -->
+        </test-method> <!-- endMethod -->
+      </class> <!-- SampleFramework.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
